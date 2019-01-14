@@ -1,0 +1,88 @@
+/** Wireframe Stylesheet **/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clearfix:: after {
+    content: "";
+    display: black;
+    clear: both;
+    overflow: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background: #777777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header {
+    color: grey;
+    background-color: #ebebeb;
+    padding: 30px;
+    margin: 20px;
+}
+
+nav {
+    color: grey;
+    background-color: #ebebeb;
+    padding: 30px;
+    margin: 20px;
+}
+
+#Section {
+    color: grey;
+    background-color: #ebebeb;
+    float: left;
+    width: 50%;
+    margin: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.article {
+    color: #ebebeb;
+    background: #777777;
+    width: 100%;
+    float: right;
+    padding: 20px;
+    position: block;
+}
+
+.headingParagraph_one {
+    color: #787878;
+    background-color: #ebebeb;
+    margin: 5px;
+    padding: 10px 10px 15px 10px;
+}
+
+.headingParagraph_two {
+    color: #787878;
+    background-color: #ebebeb;
+    margin: 5px;
+    padding: 5px 10px 20px 10px;
+}
+
+#aside {
+    color: grey;
+    background-color: #ebebeb;
+    float: right;
+    width: 40%;
+    margin: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.footer {
+    color: grey;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
+    width: 960px;
+    height: 50px;
+}
