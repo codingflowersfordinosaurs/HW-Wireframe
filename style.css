@@ -4,14 +4,14 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+/* Clearfix Class */
 .clearfix:: after {
     content: "";
     display: black;
     clear: both;
     overflow: auto;
 }
-
+/* Body CSS style */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -19,21 +19,21 @@ body {
     width: 960px;
     font-size: 18px;
 }
-
+/* Header CSS style */
 header {
     color: grey;
     background-color: #ebebeb;
     padding: 30px;
     margin: 20px;
 }
-
+/* Navogator CSS style */
 nav {
     color: grey;
     background-color: #ebebeb;
     padding: 30px;
     margin: 20px;
 }
-
+/* Box 1 CSS style */
 #Section {
     color: grey;
     background-color: #ebebeb;
@@ -43,7 +43,7 @@ nav {
     padding: 50px;
     height: 300px;
 }
-
+/* Box 1 Article CSS style */
 .article {
     color: #ebebeb;
     background: #777777;
@@ -52,21 +52,21 @@ nav {
     padding: 20px;
     position: block;
 }
-
+/* Box 1 Article Headings CSS style */
 .headingParagraph_one {
     color: #787878;
     background-color: #ebebeb;
     margin: 5px;
     padding: 10px 10px 15px 10px;
 }
-
+/* Box 1 Article Paragraph CSS style */
 .headingParagraph_two {
     color: #787878;
     background-color: #ebebeb;
     margin: 5px;
     padding: 5px 10px 20px 10px;
 }
-
+/* Box 2 CSS style */
 #aside {
     color: grey;
     background-color: #ebebeb;
@@ -76,7 +76,7 @@ nav {
     padding: 50px;
     height: 300px;
 }
-
+/* Footer CSS style */
 .footer {
     color: grey;
     background-color: #ebebeb;
